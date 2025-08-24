@@ -34,6 +34,11 @@ export default function Home() {
        <main className={styles.container}>
       <div className={styles.card}>
         <h1 className={styles.title}>🎲 Sorteio de Temas - AVL</h1>
+         <p className={styles.instrucao}>
+          📌 <b>Atividade:</b> Crie uma explicação sobre o tema sorteado.  
+          Sua apresentação pode ser em <b>slides</b> e deve ter como objetivo usar 
+          uma <b>analogia</b> para explicar o conceito de rotação em árvores AVL.
+        </p>
 
         <input
           type="text"
@@ -53,6 +58,7 @@ export default function Home() {
             <span>{sorteado}</span>
           </p>
         )}
+        <p>Desenvolvido por: Professor Marcelino Garcia</p>
       </div>
     </main>
   );
